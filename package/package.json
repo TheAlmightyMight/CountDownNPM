@@ -1,0 +1,27 @@
+{
+  "name": "@klimenty/count-down",
+  "version": "1.0.0",
+  "description": "Very simple yet useful count down timer that allows you to create and display it on your web-page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheAlmightyMight/CountDownNPM.git"
+  },
+  "keywords": [
+    "timer",
+    "count-down",
+    "time",
+    "date",
+    "display-date",
+    "display-time"
+  ],
+  "author": "klimenty",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/TheAlmightyMight/CountDownNPM/issues"
+  },
+  "homepage": "https://github.com/TheAlmightyMight/CountDownNPM#readme"
+}
