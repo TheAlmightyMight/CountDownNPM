@@ -9,7 +9,14 @@ import { countDownModule } from "./node_modules/script.mjs";
 </code>
 </pre>
 
-<h3> Create a timer instance </h3>
+<h3> Create a timer instance and pass it all the neceassary props for out count down.</h3>
+<ol>
+  <li> End date </li>
+  <li> Days element CSS class selector to display time. </li>
+  <li> Hours element CSS class selector to display time. </li>
+  <li> Minutes element CSS class selector to display time. </li>
+  <li> Seconds element CSS class selector to display time. </li>
+</ol>
 <pre>
 <code>
 const timer = countDownModule({
