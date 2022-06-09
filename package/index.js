@@ -8,6 +8,13 @@ export const countDownModule = (
     minutesElement: dep4,
     secondsElement: dep5,
   } = deps) => {
+    if (
+      typeof dep1 !== "string" &&
+      typeof dep1 !== "object" &&
+      dep1 === undefined
+    ) {
+      throw new Error("Invalid type of cDate argument!");
+    }
     // Here you set the date from which the the script is going to count down from.
 
     const countDate = new Date(dep1).getTime();
@@ -43,8 +50,6 @@ export const countDownModule = (
     document.querySelector(String(dep3)).textContent = textHour;
     document.querySelector(String(dep4)).textContent = textMinute;
     document.querySelector(String(dep5)).textContent = textSecond;
-
-    console.log("yes");
   };
 
   const state = {
