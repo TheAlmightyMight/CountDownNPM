@@ -38,4 +38,4 @@ setTimeout(timer.stop(), ms);
 </code>
 </pre>
 
-<b> No license </b>
+<b> Klimenty 2022 </b>
