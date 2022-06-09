@@ -13,10 +13,10 @@ import { countDownModule } from "/node_modules/@klimenty/count-down/index.js";
 
 <ol>
   <li> End date </li>
-  <li> Days element CSS class selector to display days. </li>
-  <li> Hours element CSS class selector to display hours. </li>
-  <li> Minutes element CSS class selector to display minutes. </li>
-  <li> Seconds element CSS class selector to display seconds. </li>
+  <li> Days element CSS class selector to display days (string only). </li>
+  <li> Hours element CSS class selector to display hours (string only). </li>
+  <li> Minutes element CSS class selector to display minutes (string only). </li>
+  <li> Seconds element CSS class selector to display seconds (string only). </li>
 </ol>
 
 <pre>
