@@ -12,7 +12,7 @@ import { countDownModule } from "/node_modules/@klimenty/count-down/index.js";
 <h3> Create a timer instance and pass it all the necesseary props for your count down.</h3>
 
 <ol>
-  <li> End date </li>
+  <li> End date (string and date object only) </li>
   <li> Days element CSS class selector to display days (string only). </li>
   <li> Hours element CSS class selector to display hours (string only). </li>
   <li> Minutes element CSS class selector to display minutes (string only). </li>
