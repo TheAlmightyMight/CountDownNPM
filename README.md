@@ -5,7 +5,7 @@
 <h3> Import the package to your project </h3>
 <pre>
 <code>
-import { countDownModule } from "./node_modules/script.mjs";
+import { countDownModule } from "/node_modules/@klimenty/count-down/index.js";
 </code>
 </pre>
 
