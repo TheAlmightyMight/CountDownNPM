@@ -1,6 +1,6 @@
 {
   "name": "@klimenty/count-down",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Very simple yet useful count down timer that allows you to create and display it on your web-page.",
   "main": "index.js",
   "scripts": {
